@@ -2,8 +2,8 @@
 
 //initialize variables to hold connection parameters
 
-$user = 'erasmusm_fitgen';
-$dsn = 'mysql:host=localhost; dbname=erasmusm_fitgen';
+$user = 'fitgen';
+$dsn = 'mysql:host=localhost; dbname=fitgen';
 $password = ']$1C1=[BT}&s';
 
 

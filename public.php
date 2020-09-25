@@ -2,16 +2,14 @@
 $siteTitle = "FitGen";
 $siteSection = "Agents";
 
-include_once '/home/erasmusm/fitgen.allapps.co.za/inc/required/utilities.php';
-include_once '/home/erasmusm/fitgen.allapps.co.za/inc/required/sessions.php';
-include_once '/home/erasmusm/fitgen.allapps.co.za/inc/required/database.php';
+include_once './inc/required/utilities.php';
+include_once './inc/required/sessions.php';
+include_once './inc/required/database.php';
 $_SESSION['lastPageVisited'] = $siteSection;
 
 ?>
 
 <script type="text/javascript" src="/dist/selfAdded/ajax/jquery/1.5.1/jquery.min.js"></script>
-
-
 
 <!DOCTYPE html>
 <html>
@@ -21,26 +19,26 @@ $_SESSION['lastPageVisited'] = $siteSection;
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
-  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.min.css">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./bower_components/font-awesome/css/font-awesome.min.css">
   <!-- Ionicons -->
-  <link rel="stylesheet" href="bower_components/Ionicons/css/ionicons.min.css">
+  <link rel="stylesheet" href="./bower_components/Ionicons/css/ionicons.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
+  <link rel="stylesheet" href="./dist/css/AdminLTE.min.css">
   <!-- AdminLTE Skins. Choose a skin from the css/skins
        folder instead of downloading all of them to reduce the load. -->
-  <link rel="stylesheet" href="dist/css/skins/_all-skins.min.css">
+  <link rel="stylesheet" href="./dist/css/skins/_all-skins.min.css">
   <!-- Morris chart -->
-  <link rel="stylesheet" href="bower_components/morris.js/morris.css">
+  <link rel="stylesheet" href="./bower_components/morris.js/morris.css">
   <!-- jvectormap -->
-  <link rel="stylesheet" href="bower_components/jvectormap/jquery-jvectormap.css">
+  <link rel="stylesheet" href="./bower_components/jvectormap/jquery-jvectormap.css">
   <!-- Date Picker -->
-  <link rel="stylesheet" href="bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
+  <link rel="stylesheet" href="./bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
   <!-- Daterange picker -->
-  <link rel="stylesheet" href="bower_components/bootstrap-daterangepicker/daterangepicker.css">
+  <link rel="stylesheet" href="./bower_components/bootstrap-daterangepicker/daterangepicker.css">
   <!-- bootstrap wysihtml5 - text editor -->
-  <link rel="stylesheet" href="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
+  <link rel="stylesheet" href="./plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
   
         <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css"/>
         
@@ -72,7 +70,7 @@ $_SESSION['lastPageVisited'] = $siteSection;
 
   <header class="main-header">
     <!-- Logo -->
-    <a href="https://fitgen.co.za" class="logo">
+    <a href="#" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b><?php echo $siteTitle?></b></span>
       <!-- logo for regular state and mobile devices -->
@@ -182,7 +180,7 @@ $_SESSION['lastPageVisited'] = $siteSection;
 <?php
 $sitePage = "allAgents";
       
- include_once '/home/erasmusm/fitgen.allapps.co.za/inc/leftbar_menu.php';
+ //include_once '/home/erasmusm/fitgen.allapps.co.za/inc/leftbar_menu.php';
 ?>       
       
  
@@ -239,7 +237,7 @@ include_once '/home/erasmusm/fitgen.allapps.co.za/inc/page/allAgents/agentsList.
   
   
 <?php
-include_once '/home/erasmusm/fitgen.allapps.co.za/inc/footer.php';
+//include_once '/home/erasmusm/fitgen.allapps.co.za/inc/footer.php';
 ?>  
 
   
