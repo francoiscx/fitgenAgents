@@ -1,5 +1,5 @@
 <?php
-include_once '/home/erasmusm/fitgen.allapps.co.za/inc/required/sessions.php';
+include_once '.inc/required/sessions.php';
 
 // Unset all of the session variables.
 $_SESSION = array();

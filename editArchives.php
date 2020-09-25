@@ -1,7 +1,7 @@
 <?php
 $siteSection = "Workbench";
 
-include_once '/home/erasmusm/fitgen.allapps.co.za/inc/required/head.php';
+include_once '.inc/required/head.php';
 $_SESSION['lastPageVisited'] = $siteSection;
 
                                 
@@ -39,7 +39,7 @@ $_SESSION['lastPageVisited'] = $siteSection;
 
           <!-- Messages: style can be found in dropdown.less-->
 <?php
-// include_once '/home/erasmusm/fitgen.allapps.co.za/inc/navbar_messages.php';
+// include_once '.inc/navbar_messages.php';
 ?>
           
           
@@ -50,7 +50,7 @@ $_SESSION['lastPageVisited'] = $siteSection;
           <!-- Notifications: style can be found in dropdown.less -->
           
 <?php
-// include_once '/home/erasmusm/fitgen.allapps.co.za/inc/navbar_notifications.php';
+// include_once '.inc/navbar_notifications.php';
 ?>          
           
 
@@ -63,7 +63,7 @@ $_SESSION['lastPageVisited'] = $siteSection;
           <!-- Tasks: style can be found in dropdown.less -->
           
 <?php
-// include_once '/home/erasmusm/fitgen.allapps.co.za/inc/navbar_tasks.php';
+// include_once '.inc/navbar_tasks.php';
 ?>            
 
           
@@ -74,7 +74,7 @@ $_SESSION['lastPageVisited'] = $siteSection;
           
 <?php
 if($_SESSION['showProfile'] == 1) {
-    include_once '/home/erasmusm/fitgen.allapps.co.za/inc/navbar_user.php';
+    include_once '.inc/navbar_user.php';
 }
 ?>
 
@@ -86,7 +86,7 @@ if($_SESSION['showProfile'] == 1) {
           
 <?php
 if($_SESSION['displayRightSidebar'] == 1) {
- include_once '/home/erasmusm/fitgen.allapps.co.za/inc/navbar_rightSidebar.php';
+ include_once '.inc/navbar_rightSidebar.php';
 }
 ?>             
           
@@ -109,14 +109,14 @@ if($_SESSION['displayRightSidebar'] == 1) {
       <!-- Sidebar user panel -->
       
 <?php
-// include_once '/home/erasmusm/fitgen.allapps.co.za/inc/leftbar_user.php';
+// include_once '.inc/leftbar_user.php';
 ?>
 
       
       <!-- Search panel -->
       
 <?php
-// include_once '/home/erasmusm/fitgen.allapps.co.za/inc/leftbar_search.php';
+// include_once '.inc/leftbar_search.php';
 ?>      
       
 
@@ -126,7 +126,7 @@ if($_SESSION['displayRightSidebar'] == 1) {
 <?php
 $sitePage = "editArchives";
       
- include_once '/home/erasmusm/fitgen.allapps.co.za/inc/leftbar_menu.php';
+ include_once '.inc/leftbar_menu.php';
 ?>       
       
  
@@ -168,7 +168,7 @@ $sitePage = "editArchives";
 <?php
 //echo "Yes";
 
-include_once '/home/erasmusm/fitgen.allapps.co.za/inc/page/workBench/archivedAgents/editArchivedAgent.php';
+include_once '.inc/page/workBench/archivedAgents/editArchivedAgent.php';
 ?>
       
 
@@ -182,7 +182,7 @@ include_once '/home/erasmusm/fitgen.allapps.co.za/inc/page/workBench/archivedAge
   
   
 <?php
-include_once '/home/erasmusm/fitgen.allapps.co.za/inc/footer.php';
+include_once '.inc/footer.php';
 ?>  
 
   
@@ -196,7 +196,7 @@ include_once '/home/erasmusm/fitgen.allapps.co.za/inc/footer.php';
 
 <?php
 if(isset($_SESSION['displayRightSidebar'])) {
-    include_once '/home/erasmusm/fitgen.allapps.co.za/inc/righSidebar.php';
+    include_once '.inc/righSidebar.php';
 }
 ?>                                                                               
 

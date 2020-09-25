@@ -3,9 +3,9 @@ $siteSection = "Register New User";
 date_default_timezone_set('Africa/Lagos');
 $siteTitle= "FitGen | Agents";
 
-include_once '/home/erasmusm/fitgen.allapps.co.za/inc/required/utilities.php';
-include_once '/home/erasmusm/fitgen.allapps.co.za/inc/required/sessions.php';
-include_once '/home/erasmusm/fitgen.allapps.co.za/inc/required/database.php';
+include_once '.inc/required/utilities.php';
+include_once '.inc/required/sessions.php';
+include_once '.inc/required/database.php';
 
 if(!isset($_SESSION['userID'])) header('Location: http://fitgen.allapps.co.za/');
 

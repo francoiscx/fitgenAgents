@@ -1,6 +1,6 @@
 <?php
 
-include_once '/home/erasmusm/fitgen.allapps.co.za/inc/required/sessions.php';
+include_once '.inc/required/sessions.php';
 
 $_SESSION['newExpoEntery'] = 1;
 

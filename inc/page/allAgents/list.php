@@ -1,7 +1,7 @@
 <?php
-include_once '/home/erasmusm/fitgen.allapps.co.za/inc/required/utilities.php';
-include_once '/home/erasmusm/fitgen.allapps.co.za/inc/required/sessions.php';
-include_once '/home/erasmusm/fitgen.allapps.co.za/inc/required/database.php';
+include_once '.inc/required/utilities.php';
+include_once '.inc/required/sessions.php';
+include_once '.inc/required/database.php';
 ?>
         <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css"/>
         <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/rowreorder/1.2.5/css/rowReorder.dataTables.min.css"/>
