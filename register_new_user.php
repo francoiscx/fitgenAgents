@@ -7,7 +7,7 @@ include_once '.inc/required/utilities.php';
 include_once '.inc/required/sessions.php';
 include_once '.inc/required/database.php';
 
-if(!isset($_SESSION['userID'])) header('Location: http://fitgen.allapps.co.za/');
+if(!isset($_SESSION['userID'])) header('Location: ./');
 
 
 $_SESSION['lastPageVisited'] = $siteSection;

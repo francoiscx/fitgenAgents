@@ -26,11 +26,11 @@ echo '    <li class="treeview">';
 <?php
 if($sitePage == "allAgents") {
 
-echo '          <li class="active"><a href="http://fitgen.allapps.co.za/index.php"><i class="fa fa-circle"></i>All Agents</a></li>';
+echo '          <li class="active"><a href="./index.php"><i class="fa fa-circle"></i>All Agents</a></li>';
             
 } else {
 
-echo '            <li class="active"><a href="http://fitgen.allapps.co.za/index.php"><i class="fa fa-circle-o"></i>All Agents</a></li>';
+echo '            <li class="active"><a href="./index.php"><i class="fa fa-circle-o"></i>All Agents</a></li>';
 }
 ?>
 

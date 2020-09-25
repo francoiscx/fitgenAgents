@@ -7,7 +7,7 @@ include_once '.inc/required/sessions.php';
 include_once '.inc/required/database.php';
 
 
-if(!isset($_SESSION['userID'])) header("Location: http://fitgen.allapps.co.za/login.php");
+if(!isset($_SESSION['userID'])) header("Location: ./login.php");
 
 
 ?>
@@ -71,7 +71,7 @@ if(!isset($_SESSION['userID'])) header("Location: http://fitgen.allapps.co.za/lo
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
   
 
- <!-- if(!isset($_SESSION['userID'])) header("Location: http://fitgen.allapps.co.za/login.php"); -->
+ <!-- if(!isset($_SESSION['userID'])) header("Location: ./login.php"); -->
 
 
 ?>

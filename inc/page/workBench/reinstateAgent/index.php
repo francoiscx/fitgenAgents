@@ -3,7 +3,7 @@ include_once '.inc/required/utilities.php';
 include_once '.inc/required/sessions.php';
 include_once '.inc/required/database.php';
 
-if(!isset($_SESSION['userID'])) {header("Location: http://fitgen.allapps.co.za/login.php");
+if(!isset($_SESSION['userID'])) {header("Location: ./login.php");
 } else {
 
     unset($_SESSION['country']);
@@ -126,7 +126,7 @@ $active = 1;
 
 if(isset($_POST['ignoreBtn'])) { echo "
     <script> 
-        window.location.replace('http://fitgen.allapps.co.za/workbench.php?id=4');
+        window.location.replace('./workbench.php?id=4');
     </script>";
 }
 ?>
@@ -185,7 +185,7 @@ if(isset($_POST['ignoreBtn'])) { echo "
     unset($_SESSION['agentReactivated']);
     
 
-header('Refresh: 2; URL=http://fitgen.allapps.co.za/workbench.php?id=4');
+header('Refresh: 2; URL=./workbench.php?id=4');
 }
 
 

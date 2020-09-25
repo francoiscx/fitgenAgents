@@ -3,7 +3,7 @@ include_once '.inc/required/utilities.php';
 include_once '.inc/required/sessions.php';
 include_once '.inc/required/database.php';
 
-if(!isset($_SESSION['userID'])) {header("Location: http://fitgen.allapps.co.za/login.php");
+if(!isset($_SESSION['userID'])) {header("Location: ./login.php");
 } else {
 
     if(isset($_POST['updateAgentCountry']) || isset($_SESSION['country'])) {
@@ -342,7 +342,7 @@ if(isset($_POST['updateagentBtn'])) {
     unset($_SESSION['agentUpdated']);
     
 
-header('Refresh: 2; URL=http://fitgen.allapps.co.za/editArchives.php?id=4');
+header('Refresh: 2; URL=./editArchives.php?id=4');
 }
 
 

@@ -148,7 +148,7 @@ if($pageID == 2) {$sitePage = "viewAllEnteries";}
       
       
 <!--      <ol class="breadcrumb">
-        <li><a href="http://fitgen.allapps.co.za"><i class="fa fa-dashboard"></i>Home</a></li>
+        <li><a href="."><i class="fa fa-dashboard"></i>Home</a></li>
         <li class="active">Dashboard</li>
       </ol>
     </section>

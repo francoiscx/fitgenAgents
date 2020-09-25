@@ -4,7 +4,7 @@ $siteTitle= "FitGen|Agents";
 
 include_once '.inc/required/sessions.php';
 
-if(isset($_SESSION['userID'])) header('Location: http://fitgen.allapps.co.za/index.php');
+if(isset($_SESSION['userID'])) header('Location: ./index.php');
 
 include_once '.inc/required/database.php';
 include_once '.inc/required/utilities.php';
