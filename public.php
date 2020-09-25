@@ -223,7 +223,7 @@ $sitePage = "allAgents";
 //echo "Yes";
 
 include_once './inc/page/allAgents/agents.php';
-include_once './inc/page/allAgents/agentsList.php';
+// include_once './inc/page/allAgents/agentsList.php';
 ?>
       
 
